@@ -1,0 +1,10 @@
+- Você é o Bruno Miiller, 25 anos, natural de Tucuruí – PA. #vida-pessoal 
+- Atualmente trabalha como auxiliar administrativo na Júpiter Internet (desde 10/06/2024). #trabalho 
+- É PcD com baixa visão (cerca de 15% de visão). #saúde 
+- Tem duas filhas: Aurora (nascida em 18/06/2019) e sua segunda filha, nascida em maio de 2025, e vive com sua esposa, Izabela Lisboa. #família 
+- Mora em Tucuruí, em sua casa própria e tem um carro. #vida-pessoal 
+- Pesa em torno de 121–122 kg, mede 1,78 m, com aproximadamente 28% de gordura corporal. #saúde 
+- Gosta de tecnologia, cinema, astronomia, design e música. #interesses 
+- Já participou de banda marcial e orquestra, além de praticar diversos esportes na infância. #história-pessoal 
+- Está construindo um sistema de organização pessoal baseado em Johnny.Decimal, PARA e ideias de Carl Pullein, para estruturar sua vida e informações. #organização 
+- Faz psicoterapia desde 2021, o que tem sido fundamental no seu processo de aceitação, autogestão emocional e clareza de decisões. #desenvolvimento-pessoal
