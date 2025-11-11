@@ -30,25 +30,43 @@ Tenho dois extremos:
 1. **Curiosidade** - posso explorar qualquer assunto sem medo de "quebrar o sistema"
 2. **Flexibilidade** - me protege de focar obsessivamente onde não devo
 3. **Organização** - me mostra o que merece atenção e o que não merece
-4. **Visual contrastado e definido** - acessibilidade (tenho 15% de visão, preciso de alto contraste)
+4. **Visual definido e contrastado** - acessibilidade (tenho 15% de visão, preciso de bom contraste e formas bem definidas)
 
-## Bloco básico: Nota Mínima
+## Tipos de nota no Raccoon
 
-**Nota Mínima** = autocontida, tudo necessário está dentro dela
+O Raccoon trabalha com dois tipos de nota:
 
-1. Não é "átomo" (isolado e inútil sozinho)
-2. É como uma "célula" (pequena, mas viva e funcional)
+### 1. nota-mínima
+
+**Bloco básico do Raccoon** - conhecimento processado e autocontido.
+
+1. Não é "átomo" isolado e inútil sozinho
+2. É como uma "célula" funcional - pequena mas viva
 3. Tem tudo que preciso pra entender e usar, sem precisar pular pra outras notas
 4. Pode ter 1 ou 2 links quando realmente necessário, mas funciona sozinha
+5. Tem minha cara - usa minha linguagem
 
-## O que NÃO fazer no Raccoon
+**Quando usar:** Para conhecimento que vou consultar e usar regularmente.
 
-1. **Muitos links** - me fazem pular de nota em nota e perder o contexto
-2. **Estrutura complexa** - me fazem travar configurando em vez de usar
-3. **Genérico sem personalidade** - precisa ter minha cara (Bruno)
+### 2. recurso
 
-## Padrão de frontmatter
+**Material de referência** - documentação de fontes externas.
 
+1. Criado sem minha interação direta (pode ser gerado por IA, mas validado por mim)
+2. Serve como fonte de consulta
+3. Mais formal e estruturado que nota-mínima
+4. Contém notas de rodapé para busca posterior
+5. Informação compilada de múltiplas fontes
+
+**Quando usar:** Para compilações de informação externa, referências bibliográficas, listas de autores/frameworks.
+
+**Exemplo:** Referências do Raccoon (lista de autores que influenciam o sistema).
+
+## Padrões de frontmatter
+
+Cada tipo de nota tem seu padrão de frontmatter específico:
+
+### Frontmatter: nota-mínima
 ```yaml
 ---
 date: YYYY-MM-DD
@@ -58,10 +76,31 @@ type: nota-mínima
 ---
 ```
 
-1. Classes do frontmatter em inglês
-2. Conteúdo em português
-3. Data no formato ISO (YYYY-MM-DD)
-4. Title sincronizado com H1 (pode ter caracteres especiais que o nome do arquivo não aceita)
+1. **date:** Apenas data (sem hora) - quando foi criada ou última modificação significativa
+2. **title:** Sincronizado com H1, pode ter caracteres especiais
+3. **tags:** Flexíveis, orgânicos
+4. **Classes em inglês, conteúdo em português**
+
+### Frontmatter: recurso
+```yaml
+---
+date: YYYY-MM-DDTHH:MM:SS-03:00
+title: Título do recurso
+tags: [tag1, tag2, tag3]
+type: recurso
+---
+```
+
+1. **date:** Timestamp completo com timezone - momento exato de criação/atualização
+2. **timezone:** `-03:00` (Tucuruí/Imperatriz)
+3. **tags:** Mais estruturados, podem incluir categorias de referência
+4. **Razão do timestamp completo:** Recursos podem ser atualizados e é importante saber versão exata
+
+## O que NÃO fazer no Raccoon
+
+1. **Muitos links** - me fazem pular de nota em nota e perder o contexto
+2. **Estrutura complexa** - me fazem travar configurando em vez de usar
+3. **Genérico sem personalidade** - precisa ter minha cara (Bruno)
 
 ## Como usar
 
@@ -74,6 +113,9 @@ type: nota-mínima
 **Quando não sei se algo merece atenção:**
 → Organização me guia - verificar se conecta com meus valores
 
+**Quando preciso referência externa:**
+→ Criar recurso - compilação formal de fontes
+
 ## Escopos e limites da IA
 
 ### IA pode:
@@ -82,6 +124,7 @@ type: nota-mínima
 2. Sugerir formato e organização
 3. Executar criação de notas que eu aprovei
 4. Me lembrar dos valores quando eu desviar
+5. Criar recursos (validados por mim)
 
 ### IA NÃO pode:
 
