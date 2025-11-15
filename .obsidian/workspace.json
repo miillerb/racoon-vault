@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contexto para IA - Raccoon.md",
+                "file": "Regras de Commit - Raccoon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contexto para IA - Raccoon"
+              "title": "Regras de Commit - Raccoon"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contexto para IA - Raccoon.md",
+                "file": "Regras de Commit - Raccoon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Contexto para IA - Raccoon"
+              "title": "Links inversos para Regras de Commit - Raccoon"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contexto para IA - Raccoon.md",
+                "file": "Regras de Commit - Raccoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Contexto para IA - Raccoon"
+              "title": "Links de saída para Regras de Commit - Raccoon"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contexto para IA - Raccoon.md",
+                "file": "Regras de Commit - Raccoon.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Contexto para IA - Raccoon"
+              "title": "Sumário de Regras de Commit - Raccoon"
             }
           }
         ]
@@ -200,6 +200,9 @@
   },
   "active": "dcf11c1028fde919",
   "lastOpenFiles": [
+    "Regras de Commit - Raccoon.md.tmp.5204.1762903859127",
+    "Contexto para IA - Raccoon.md",
+    "Regras de Commit - Raccoon.md.tmp.5204.1762903815365",
     "Regras de Commit - Raccoon.md",
     "EXECUTAR BACKUP.bat",
     "EXECUTAR BACKUP.bat.tmp.5204.1762838027135",
@@ -210,9 +213,7 @@
     "Backup para Google Drive.bat.tmp.5204.1762837281351",
     "Backup para Google Drive.bat.tmp.5204.1762837057417",
     "Backup para Google Drive.bat.tmp.5204.1762836967366",
-    "Backup para Google Drive.bat.tmp.5204.1762836830704",
     "Como o Raccoon funciona.md",
-    "Contexto para IA - Raccoon.md",
     "Minha história com anotações.md",
     "Quem sou eu.md",
     "Bem-vindo.md",
