@@ -15,8 +15,8 @@
 ## Última Sessão
 - Data: 16/11/2025
 - Início: 10:45:29
-- Fim: 10:58:31
-- Duração: 13m e 2s
+- Fim: 11:30:48
+- Duração: 45m e 19s
 - Arquivo: `.claude/sessoes/2025-11-16.md`
 - Resumo: Atualização do sistema de registro de sessões. Template atualizado com frontmatter (ISO 8601 + tags), formatos de data/hora padronizados (ISO 8601 para metadados, pt-BR para corpo), e duração abreviada (Xh, Xm e Xs).
 
