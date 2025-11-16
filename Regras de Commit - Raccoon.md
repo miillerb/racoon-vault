@@ -108,18 +108,13 @@ Título do commit
 - Bullet 1
 - Bullet 2
 - Bullet 3
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
 ```
 
 **Regras:**
 1. Seguir formato normal (título + corpo com bullets)
-2. Adicionar linha em branco após bullets
-3. Adicionar emoji + link Claude Code
-4. Adicionar Co-Authored-By do Claude
-5. Título e bullets seguem mesmas regras (50/72 chars, infinitivo)
+2. Adicionar linha em branco antes dos bullets
+3. Título e bullets seguem mesmas regras (50/72 chars, infinitivo)
+4. Não adicionar assinatura Claude
 
 ---
 
