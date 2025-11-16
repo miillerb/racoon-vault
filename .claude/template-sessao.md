@@ -1,8 +1,14 @@
-# Sessão Claude - [DATA]
+---
+criado: YYYY-MM-DDTHH:mm:ss-03:00
+tags: [sessao-claude, topico-principal, tecnologia-usada]
+---
+
+# Sessão Claude - DD/MM/YYYY
 
 ## Informações da Sessão
-- **Data:** [YYYY-MM-DD]
-- **Duração:** [aproximada, ex: 30min, 1h]
+- **Início da sessão:** DD/MM/YYYY, HH:mm:ss
+- **Fim da sessão:** DD/MM/YYYY, HH:mm:ss
+- **Duração:** [Xh, Xm e Xs conforme necessário]
 - **Contexto:** [Breve descrição do que motivou a sessão]
 
 ## Objetivos
@@ -84,5 +90,4 @@ comando2
 [Qualquer informação adicional que não se encaixa nas seções acima]
 
 ---
-**Tags:** #sessao-claude #[topico-principal] #[tecnologia-usada]
-**Atualizado em:** [YYYY-MM-DD HH:MM]
+**Atualizado em:** DD/MM/YYYY, HH:mm:ss
