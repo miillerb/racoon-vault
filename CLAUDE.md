@@ -10,9 +10,10 @@
 
 1. Ler `.claude/memory.md` (resumo executivo do projeto)
 2. Ler `.claude/contexto-projeto.md` (contexto detalhado)
-3. Ler última sessão em `.claude/sessoes/` (mais recente)
-4. Executar `git status` para ver estado atual
-5. Apresentar resumo breve: "Contexto carregado. Pronto para trabalhar."
+3. Ler todas as sessões em `.claude/sessoes/` 
+4. Ler todo o git log
+5. Executar `git status` para ver estado atual
+6. Apresentar resumo breve: "Contexto carregado. Pronto para começar ✅."
 
 **Não peça confirmação, apenas execute e informe quando estiver pronto.**
 
@@ -215,8 +216,8 @@ EOF
 2. **Duração:** SEMPRE calcular exata, NUNCA aproximar
 3. **Frontmatter:** SEMPRE ISO 8601 com timezone para created/updated
 4. **Links:** Máximo 1-2 por nota (filosofia Nota Mínima)
-5. **Emojis:** NUNCA usar (exceto quando explicitamente solicitado)
-6. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo
+5. **Emojis:** Usar com moderação
+6. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo ou cfazer commits
 7. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
 8. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
 
@@ -226,7 +227,7 @@ EOF
 
 **Sempre:**
 - Idioma: Português (pt-BR)
-- Tom: Direto, objetivo, sem emojis
+- Tom: Direto, objetivo, sem emojis na amioria das vezes
 - Mostrar plano antes de executar tarefas complexas
 
 **Quando Bruno estiver travando (configurando demais):**
