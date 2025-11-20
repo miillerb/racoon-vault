@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regras de Commit - Raccoon.md",
+                "file": "Bem-vindo de volta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regras de Commit - Raccoon"
+              "title": "Bem-vindo de volta"
             }
           }
         ],
@@ -200,23 +200,23 @@
   },
   "active": "dcf11c1028fde919",
   "lastOpenFiles": [
+    "Bem-vindo.md",
+    "Bem-vindo de volta.md",
+    "Bem-vindo de volta.md.tmp.31088.1763602577102",
+    "Bem-vindo.md.tmp.31088.1763602408439",
+    "Regras de Commit - Raccoon.md",
     "Regras de Commit - Raccoon.md.tmp.5204.1762903859127",
     "Contexto para IA - Raccoon.md",
     "Regras de Commit - Raccoon.md.tmp.5204.1762903815365",
-    "Regras de Commit - Raccoon.md",
     "EXECUTAR BACKUP.bat",
     "EXECUTAR BACKUP.bat.tmp.5204.1762838027135",
     "Backup para Google Drive.ps1",
     "Backup para Google Drive.bat.tmp.5204.1762837559609",
     "Backup para Google Drive.bat",
     "Backup para Google Drive.bat.tmp.5204.1762837351225",
-    "Backup para Google Drive.bat.tmp.5204.1762837281351",
-    "Backup para Google Drive.bat.tmp.5204.1762837057417",
-    "Backup para Google Drive.bat.tmp.5204.1762836967366",
     "Como o Raccoon funciona.md",
     "Minha história com anotações.md",
     "Quem sou eu.md",
-    "Bem-vindo.md",
     "CLAUDE.md"
   ]
 }
