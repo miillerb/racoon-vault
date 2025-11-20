@@ -1,13 +1,3 @@
----
-created: 2025-11-19T23:03:53
-updated: 2025-11-19T23:08:33
-title: README - Raccoon
-tags:
-  - raccoon
-  - sistema
-  - índice
-type: indice
----
 
 # Raccoon
 
@@ -125,10 +115,10 @@ type: nota-mínima
 
 ## Arquivos importantes
 
-1. [[00 - Meta/Como o Raccoon funciona|Como o Raccoon funciona]] - leia primeiro
-2. [[00 - Meta/Quem sou eu|Quem sou eu]] - meus dados pessoais
-3. [[00 - Meta/Contexto para IA - Raccoon|Contexto para IA]] - copiar no Claude.ai
-4. [[00 - Meta/Minha história com anotações|Minha história]] - minha jornada
+1. [Como o Raccoon funciona](00%20-%20Meta/Como%20o%20Raccoon%20funciona.md) - leia primeiro
+2. [Quem sou eu](00%20-%20Meta/Quem%20sou%20eu.md) - meus dados pessoais
+3. [Contexto para IA](00%20-%20Meta/Contexto%20para%20IA%20-%20Raccoon.md) - copiar no Claude.ai
+4. [Minha história](00%20-%20Meta/Minha%20hist%C3%B3ria%20com%20anota%C3%A7%C3%B5es.md) - minha jornada
 
 ---
 
