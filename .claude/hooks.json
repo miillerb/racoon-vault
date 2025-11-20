@@ -1,0 +1,19 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "command": "powershell -NoProfile -WindowStyle Hidden -Command \"Start-Process powershell -ArgumentList '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File \"\"$env:CLAUDE_PROJECT_DIR\\.claude\\scripts\\timeout-monitor.ps1\"\" -TimestampFile \"\"$env:CLAUDE_PROJECT_DIR\\.claude\\.timeout-state\"\" -SessionId \"\"$env:CLAUDE_SESSION_ID\"\"' -WindowStyle Hidden\"",
+      "description": "Inicia monitor de timeout de inatividade em background"
+    },
+    {
+      "event": "PostToolUse",
+      "command": "powershell -NoProfile -Command \"Get-Date | Out-File -FilePath '$env:CLAUDE_PROJECT_DIR\\.claude\\.timeout-state' -Encoding UTF8 -Force\"",
+      "description": "Atualiza timestamp de última atividade"
+    },
+    {
+      "event": "SessionEnd",
+      "command": "powershell -NoProfile -Command \"Get-Process | Where-Object {$_.Path -like '*powershell*' -and $_.CommandLine -like '*timeout-monitor.ps1*'} | Stop-Process -Force -ErrorAction SilentlyContinue; Remove-Item '$env:CLAUDE_PROJECT_DIR\\.claude\\.timeout-state' -ErrorAction SilentlyContinue\"",
+      "description": "Para monitor de timeout e limpa arquivo de estado"
+    }
+  ]
+}
