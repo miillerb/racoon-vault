@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Tabela
+    filters:
+      and:
+        - file.folder == "10 - Pessoal/11 - Finanças"
+        - file.ext != "base"
+    order:
+      - date
+      - title
+      - type
+      - valor
+      - file.name
+    sort:
+      - property: date
+        direction: DESC
+      - property: type
+        direction: DESC
+    columnSize:
+      note.title: 604
+      note.valor: 63

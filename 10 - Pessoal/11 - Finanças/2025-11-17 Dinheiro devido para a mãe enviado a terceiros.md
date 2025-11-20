@@ -14,7 +14,7 @@ valor: 235.00
 **Forma de pagamento:** Pix
 **Banco:** Bradesco
 
-[2025-11-17T20-09-22 - Dinheiro devido para a mãe enviado a terceiros - 235,00.pdf](comprovantes/2025-11-17T20-09-22%20-%20Dinheiro%20devido%20para%20a%20m%C3%A3e%20enviado%20a%20terceiros%20-%20235,00.pdf)
+[2025-11-17_20-09-22 - Dinheiro devido para a mãe enviado a terceiros - 235,00.pdf](comprovantes/2025-11-17_20-09-22%20-%20Dinheiro%20devido%20para%20a%20m%C3%A3e%20enviado%20a%20terceiros%20-%20235,00.pdf)
 
 **Observações:**
 Dinheiro Maria Miiller - enviado para Lucimar Lima da Silveira
