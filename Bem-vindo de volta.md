@@ -6,6 +6,7 @@ updated: 2025-11-19T23:06:39
 
 Este é o seu cérebro estendido - um assistente equilibrador que te dá pistas de memória, sem criar dependência.
 
+Criado em colaboração com Claude Code, **usa o arquivo [[CLAUDE|Claude.md]] para rodar os padrões** estabelecido pelo usuário.
 ## O que já construímos aqui
 
 Desde 15/11/2025, você tem trabalhado para criar um sistema que:

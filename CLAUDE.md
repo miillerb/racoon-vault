@@ -1,0 +1,257 @@
+# Raccoon Vault - Instruções para Claude Code
+
+**Este arquivo é automaticamente lido ao iniciar sessão. Siga estas instruções sempre.**
+
+---
+
+## Inicialização Automática de Sessão
+
+**AO INICIAR QUALQUER SESSÃO, execute automaticamente:**
+
+1. Ler `.claude/memory.md` (resumo executivo do projeto)
+2. Ler `.claude/contexto-projeto.md` (contexto detalhado)
+3. Ler última sessão em `.claude/sessoes/` (mais recente)
+4. Executar `git status` para ver estado atual
+5. Apresentar resumo breve: "Contexto carregado. Pronto para trabalhar."
+
+**Não peça confirmação, apenas execute e informe quando estiver pronto.**
+
+---
+
+## Sobre o Projeto Raccoon
+
+**Propósito:** Cérebro extendido de Bruno - assistente equilibrador baseado em Nota Mínima
+**Usuário:** Bruno Miiller (25 anos, PcD com 15% de visão, neurodivergente)
+**Filosofia:** Curiosidade + Flexibilidade + Organização + Visual Contrastado
+
+**Características do Bruno:**
+- Devaneia e se perde OU foca obsessivamente
+- Raccoon equilibra: estrutura quando desvaneio, flexibilidade quando travo
+- Precisa de alto contraste visual
+- Prefere comunicação direta, sem emojis
+
+---
+
+## Estrutura do Vault
+
+```
+Raccoon/
+├── 00 - Meta/              # Sobre Bruno e o sistema
+├── 10 - Pessoal/           # Vida pessoal
+│   └── 11 - Finanças/      # Sistema ativo: transações + MoC
+├── 20 - Trabalho/          # Trabalho (vazio)
+├── 30 - Estudos/           # Aprendizado (vazio)
+├── 40 - Projetos/          # Projetos (vazio)
+├── 50 - Recursos/          # Templates (vazio)
+├── 90 - Arquivo/           # Material antigo (vazio)
+└── .claude/                # Memória persistente Claude
+    ├── memory.md           # LER ao iniciar sessão
+    ├── contexto-projeto.md # Contexto detalhado
+    ├── sessoes/            # Histórico de trabalho
+    └── template-sessao.md  # Template para finalizar
+```
+
+---
+
+## Padrões de Frontmatter
+
+**Padrão Nota Mínima:**
+```yaml
+---
+created: YYYY-MM-DDTHH:mm:ss-03:00
+updated: YYYY-MM-DDTHH:mm:ss-03:00
+title: Título da nota
+tags: [tag1, tag2]
+type: nota-mínima
+---
+```
+
+**Padrão Transação Financeira:**
+```yaml
+---
+created: YYYY-MM-DDTHH:mm:ss-03:00
+updated: YYYY-MM-DDTHH:mm:ss-03:00
+title: Título completo
+tags: [finanças, gasto/receita]
+type: transação
+---
+```
+
+**Padrão MoC:**
+```yaml
+---
+created: YYYY-MM-DDTHH:mm:ss-03:00
+updated: YYYY-MM-DDTHH:mm:ss-03:00
+title: 📁 Título
+tags: [moc, categoria]
+type: moc
+---
+```
+
+---
+
+## Padrões de Datas
+
+- **Frontmatter:** ISO 8601 com timezone → `YYYY-MM-DDTHH:mm:ss-03:00`
+- **Corpo de nota:** pt-BR → `DD/MM/YYYY, HH:mm:ss`
+- **Nome de arquivo:** ISO 8601 → `YYYY-MM-DD Título.md`
+- **Duração:** Abreviada → `Xh, Xm e Xs` (exemplo: `2h, 13m e 34s`)
+
+**SEMPRE calcular duração exata, nunca aproximar.**
+
+---
+
+## Sistema de Finanças (10 - Pessoal/11 - Finanças/)
+
+**Padrão de arquivos:**
+- Notas: `YYYY-MM-DD Título.md`
+- Comprovantes: `YYYY-MM-DD_HH-MM-SS - Título - valor.pdf/jpg`
+
+**Campo obrigatório em transações:** Banco
+
+**MoC "📁 Minhas finanças.md":**
+- Tabela estática (atualização manual)
+- Ordenação: mais recente primeiro
+- Seções: "Todas as transações", "Resumo", "Categorias principais"
+- Atualizar `updated:` no frontmatter após mudanças
+
+**Ao adicionar transação:**
+1. Criar nota `YYYY-MM-DD Título.md` com frontmatter correto
+2. Adicionar linha na tabela do MoC
+3. Recalcular totais em "Resumo"
+4. Atualizar "Categorias principais" se necessário
+5. Confirmar com usuário antes de finalizar
+
+---
+
+## Regras de Commit Git
+
+**Formato obrigatório:**
+```
+Título do commit
+
+- Bullet 1 descrevendo mudança
+- Bullet 2 descrevendo mudança
+- Bullet 3 descrevendo mudança
+```
+
+**Regras críticas:**
+- Título: máximo 50 caracteres, infinitivo, sem ponto final
+- Corpo: linha vazia + bullets (máximo 72 caracteres cada)
+- **NUNCA adicionar:** emoji Claude, link "Generated with Claude Code", "Co-Authored-By: Claude"
+
+**Usar HEREDOC para commits:**
+```bash
+git commit -m "$(cat <<'EOF'
+Título do commit
+
+- Bullet 1
+- Bullet 2
+EOF
+)"
+```
+
+**Arquivos .obsidian/:** NUNCA commitar (exceto quando explicitamente solicitado)
+
+---
+
+## Workflow: Finalizar Sessão
+
+**Comando do usuário:** `finalizar sessão`
+
+**Execute automaticamente:**
+
+1. **Criar nota de sessão** em `.claude/sessoes/YYYY-MM-DD.md`
+   - Usar template de `.claude/template-sessao.md`
+   - Frontmatter: `criado:` em ISO 8601 com timezone
+   - Calcular duração EXATA (formato `Xh, Xm e Xs`)
+   - Documentar: objetivos, discussões, decisões, arquivos modificados, aprendizados, próximos passos
+
+2. **Atualizar `.claude/memory.md`**
+   - "Última atualização": data atual
+   - Seção "Última Sessão": data, início, fim, duração exata, arquivo, resumo (2-3 frases)
+   - Seção "Contexto Técnico Atual": HEAD, origin/main, commits não pushados, pendências
+
+3. **Perguntar sobre commit**
+   - Mostrar `git status`
+   - Perguntar: "Deseja fazer commit das mudanças?"
+   - Se sim, seguir workflow de commit (revisar → propor mensagem → executar → perguntar push)
+
+---
+
+## Workflow: Adicionar Transação Financeira
+
+**Comando do usuário:** `adicionar transação financeira` (com detalhes)
+
+**Execute automaticamente:**
+
+1. Criar nota em `10 - Pessoal/11 - Finanças/YYYY-MM-DD Título.md`
+2. Adicionar linha na tabela do MoC "📁 Minhas finanças.md"
+3. Recalcular totais na seção "Resumo" do MoC
+4. Atualizar "Categorias principais" se necessário
+5. Atualizar `updated:` no frontmatter do MoC
+6. Confirmar com usuário: mostrar resumo + novos totais
+
+---
+
+## Workflow: Fazer Commit
+
+**Comando do usuário:** `fazer commit`
+
+**Execute automaticamente:**
+
+1. Executar `git status`, `git diff`, e `git log -5 --oneline` em paralelo
+2. Analisar mudanças e propor mensagem seguindo regras
+3. Adicionar arquivos com `git add` (excluir .obsidian/)
+4. Executar commit com HEREDOC
+5. Executar `git status` após commit
+6. Perguntar: "Deseja fazer push para origin/main?"
+
+---
+
+## Regras Críticas (NUNCA violar)
+
+1. **Commits:** NUNCA adicionar assinatura Claude
+2. **Duração:** SEMPRE calcular exata, NUNCA aproximar
+3. **Frontmatter:** SEMPRE ISO 8601 com timezone para created/updated
+4. **Links:** Máximo 1-2 por nota (filosofia Nota Mínima)
+5. **Emojis:** NUNCA usar (exceto quando explicitamente solicitado)
+6. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo
+7. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
+8. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
+
+---
+
+## Comunicação com Bruno
+
+**Sempre:**
+- Idioma: Português (pt-BR)
+- Tom: Direto, objetivo, sem emojis
+- Mostrar plano antes de executar tarefas complexas
+
+**Quando Bruno estiver travando (configurando demais):**
+- Alertar: "Isso merece essa atenção?"
+- Sugerir usar o que já existe
+- Lembrar valor: Flexibilidade
+
+**Quando Bruno estiver devaneando:**
+- Trazer de volta ao foco
+- Lembrar valor: Estrutura
+
+---
+
+## Arquivos Importantes
+
+- `00 - Meta/Como o Raccoon funciona.md` - Manifesto completo
+- `00 - Meta/Contexto para IA - Raccoon.md` - Contexto para Claude.ai
+- `00 - Meta/Regras de Commit - Raccoon.md` - Regras detalhadas git
+- `README.md` - Visão geral do vault
+- `.claude/memory.md` - **LER ao iniciar SEMPRE**
+- `.claude/contexto-projeto.md` - Contexto detalhado do projeto
+
+---
+
+**Última atualização:** 2025-11-20
+**Versão:** 1.0
+
+**Este arquivo é lido automaticamente. Siga estas instruções em toda sessão.**
