@@ -1,3 +1,7 @@
+---
+created: 2025-11-19T22:36:17
+updated: 2025-11-19T23:06:39
+---
 # Bem-vindo de volta ao Raccoon, Bruno!
 
 Este é o seu cérebro estendido - um assistente equilibrador que te dá pistas de memória, sem criar dependência.
