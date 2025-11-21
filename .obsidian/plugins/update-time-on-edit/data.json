@@ -1,0 +1,19 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm:ss",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": true,
+  "fileHashMap": {
+    "README.md": "78bd65618c1f5a11ee416a1c2a887ff686439a2857edb9b8b28b0b1304b5a973",
+    "Bem-vindo de volta.md": "d299c7b58a470032859068969344499994211a0b09201ac96050eab991824720",
+    "00 - Meta/Quem sou eu.md": "180b60c41b2173bed5242ad86574305c1c7066d57fd38f87068e56968b683b96",
+    "00 - Meta/Regras de Commit - Raccoon.md": "d04e3621adf74625d7b0984e600a615a556d203aaddffadfa2338a0571c54a6f",
+    "00 - Meta/Minha história com anotações.md": "afecf2b3f793a330cee1b750ae6aec46ea4185e60e812e34712defba3ce63406",
+    "00 - Meta/Contexto para IA - Raccoon.md": "e343c2d8669b0bdb4c4e893ecaa9bfcc636e65a63ab3b83360ff2a9ac786cfa4",
+    "00 - Meta/Como o Raccoon funciona.md": "297b855014679ef99434a41459804055e918679a886edcb35ee8d3beabdf3e55"
+  }
+}

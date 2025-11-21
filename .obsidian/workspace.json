@@ -4,39 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5a0e3ee37a1023b9",
+        "id": "7b9e72122a9c747d",
         "type": "tabs",
         "children": [
           {
-            "id": "ba020f4ad3e50b6b",
+            "id": "dcf952f44ba6bc22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bem-vindo.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bem-vindo"
+              "title": "CLAUDE"
             }
           },
           {
-            "id": "f157e142a127573a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quem sou eu.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quem sou eu"
-            }
-          },
-          {
-            "id": "dcf11c1028fde919",
+            "id": "b4983fd9a2724519",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,11 +55,21 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8b9627628a9b3c8b",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook",
+              "title": "Notebook Navigator"
             }
           },
           {
@@ -103,11 +99,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "right": {
     "id": "1d91d3a147413245",
@@ -179,6 +176,32 @@
               "icon": "lucide-list",
               "title": "Sumário de Regras de Commit - Raccoon"
             }
+          },
+          {
+            "id": "cdbd91a6e0177631",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "58c5c083d3b0256c",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Bem-vindo de volta.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Notas de rodapé"
+            }
           }
         ]
       }
@@ -195,28 +218,49 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "bases:Criar nova base": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "dcf11c1028fde919",
+  "active": "8b9627628a9b3c8b",
   "lastOpenFiles": [
-    "Bem-vindo.md",
+    "CLAUDE.md",
+    "20 - Trabalho/21 - Júpiter Internet/📁 Trabalho Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2025-05 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/Holerite Juputer Internet - Bruno de Oliveira Miiller - 05-2025.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-11 Holerite 13º Salário (1ª Parcela) Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-07 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-08 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-09 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-09 Holerite Júpiter Internet (Holerith).md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-10 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-11 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite 13º Salário Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite Júpiter Internet.md.tmp.15128.1763698138118",
+    "20 - Trabalho/21 - Júpiter Internet/2024-06 Holerite Júpiter Internet.md",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-11 - holerite.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-12 - holerite - decimo terceiro.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-12 - holerite.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/Holerith Juputer Internet - Bruno de Oliveira Miiller - 09-2024.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-11 - holerite - primeira parcela do decimo terceiro.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-10 - holerite.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-09 - holerite.pdf",
+    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-08 - holerite.pdf",
+    "10 - Pessoal/11 - Finanças/📁 Minhas finanças.md",
+    "10 - Pessoal/11 - Finanças/2025-11-18 Roupa e sapato formatura Aurora.md",
+    "10 - Pessoal/11 - Finanças/2025-11-20 Recebimento da primeira parcela do 13º salário - Júpiter Internet.md",
+    "10 - Pessoal/11 - Finanças/2025-11-20 Janta de Pastel no Malagueta Pastel.md",
+    "10 - Pessoal/11 - Finanças/2025-11-04 Janta de Espetinho no Rubens.md",
+    "10 - Pessoal/11 - Finanças/2023-12-20 Transferência mãe.md",
+    "10 - Pessoal/11 - Finanças/2025-11-12 Pagamento da fatura do Cartão de Crédito Inter - 11-2025.md",
+    "10 - Pessoal/11 - Finanças/2025-09-01 Pagamento de Juros de 45.000,00 do Tio Jura - 09-2025.md",
+    "10 - Pessoal/11 - Finanças/2025-10-03 Pagamento de Juros de 45.000,00 do Tio Jura - 10-2025.md",
+    "10 - Pessoal/11 - Finanças/2025-11-01 Pagamento de Juros de 45.000,00 do Tio Jura - 11-2025.md",
     "Bem-vindo de volta.md",
-    "Bem-vindo de volta.md.tmp.31088.1763602577102",
-    "Bem-vindo.md.tmp.31088.1763602408439",
-    "Regras de Commit - Raccoon.md",
-    "Regras de Commit - Raccoon.md.tmp.5204.1762903859127",
-    "Contexto para IA - Raccoon.md",
-    "Regras de Commit - Raccoon.md.tmp.5204.1762903815365",
-    "EXECUTAR BACKUP.bat",
-    "EXECUTAR BACKUP.bat.tmp.5204.1762838027135",
-    "Backup para Google Drive.ps1",
-    "Backup para Google Drive.bat.tmp.5204.1762837559609",
-    "Backup para Google Drive.bat",
-    "Backup para Google Drive.bat.tmp.5204.1762837351225",
-    "Como o Raccoon funciona.md",
-    "Minha história com anotações.md",
-    "Quem sou eu.md",
-    "CLAUDE.md"
+    "10 - Pessoal/11 - Finanças/2025-11-15 Faixa de Jiu-jitsu nova para Aurora.md",
+    "Untitled.md",
+    "10 - Pessoal/11 - Finanças/comprovantes/2023-12-20 - Limpeza dental com o Arthur Oliveira - 180,00.jpg",
+    "2023-12-20 - Limpeza dental com o Arthur Oliveira - 180,00.jpg"
   ]
 }
