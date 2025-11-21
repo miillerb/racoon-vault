@@ -1,7 +1,7 @@
 ---
 date: 2025-11-16
 title: Sushi no Zyan
-tags: [gasto, alimentação, sushi]
+tags: [finanças/gasto, finanças/alimentação, finanças/sushi]
 type: gasto
 valor: 194.00
 ---

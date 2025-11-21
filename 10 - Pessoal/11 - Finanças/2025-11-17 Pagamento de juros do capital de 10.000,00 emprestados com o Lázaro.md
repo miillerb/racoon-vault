@@ -1,7 +1,7 @@
 ---
 date: 2025-11-17
 title: Pagamento de juros do capital de 10.000,00 emprestados com o Lázaro
-tags: [gasto, juros, empréstimo]
+tags: [finanças/gasto, finanças/juros, finanças/empréstimo]
 type: gasto
 valor: 800.00
 ---

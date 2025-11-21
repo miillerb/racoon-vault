@@ -9,13 +9,13 @@ views:
       - date
       - title
       - type
-      - valor
+      - tags
       - file.name
     sort:
       - property: date
         direction: DESC
-      - property: type
+      - property: file.ctime
         direction: DESC
     columnSize:
       note.title: 604
-      note.valor: 63
+      note.tags: 419

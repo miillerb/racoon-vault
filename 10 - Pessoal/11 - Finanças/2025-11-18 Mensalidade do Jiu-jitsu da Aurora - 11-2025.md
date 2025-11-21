@@ -1,7 +1,7 @@
 ---
 date: 2025-11-18
 title: Mensalidade do Jiu-jitsu da Aurora - 11-2025
-tags: [gasto, aurora, jiu-jitsu]
+tags: [finanças/gasto, finanças/aurora, finanças/jiu-jitsu]
 type: gasto
 valor: 50.00
 ---

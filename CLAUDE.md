@@ -112,7 +112,7 @@ type: moc
 
 **MoC "📁 Minhas finanças.md":**
 - Tabela estática (atualização manual)
-- Ordenação: mais recente primeiro
+- Ordenação: mais antigo primeiro (cronológica crescente)
 - Seções: "Todas as transações", "Resumo", "Categorias principais"
 - Atualizar `updated:` no frontmatter após mudanças
 
@@ -195,6 +195,57 @@ EOF
 
 ---
 
+## Workflow: Adicionar Comprovante
+
+**Comando do usuário:** `adicionar comprovante`
+
+**Execute automaticamente:**
+
+1. **Listar comprovantes** em `C:\Users\Bruno Miiller\Downloads`
+   - Buscar arquivos .pdf, .jpg, .png, .jpeg mais recentes
+
+2. **Ler o comprovante** identificado e extrair informações:
+   - Data e hora da transação
+   - Valor
+   - Recebedor/Destinatário
+   - Banco/Forma de pagamento
+
+3. **Perguntar ao usuário:**
+   - Título/descrição da transação
+   - Categoria (Alimentação, Aurora, Boletos, Empréstimos, Família, Renda, Saúde)
+   - Confirmação do tipo (gasto/receita)
+
+4. **Criar nota da transação** em `10 - Pessoal/11 - Finanças/YYYY-MM-DD Título.md`
+   - Frontmatter com date, title, tags, type, valor
+   - Recebedor no formato: "Nome Completo (Nome Comercial)" quando aplicável
+   - Link para comprovante
+
+5. **Copiar comprovante** para `10 - Pessoal/11 - Finanças/comprovantes/`
+   - Nome: `YYYY-MM-DD_HH-MM-SS - Título - valor.pdf/jpg`
+
+6. **Editar MoC** (NUNCA recriar arquivo inteiro):
+   - Atualizar `updated:` no frontmatter
+   - Adicionar linha na tabela (ordem cronológica: mais antigo primeiro / crescente)
+   - Inserir nova transação ANTES da linha de totais, na posição correta pela data
+   - Recalcular totais (gastos, receitas, saldo)
+   - Atualizar resumo (total de transações, quantidade por tipo)
+   - Atualizar categoria correspondente
+   - **Preservar `created:` original do MoC**
+   - **CRÍTICO: Após QUALQUER edição, SEMPRE restaurar metadados:**
+     ```powershell
+     (Get-Item '...\📁 Minhas finanças.md').CreationTime = '2025-11-20 01:02:00'
+     (Get-Item '...\📁 Minhas finanças.md').LastWriteTime = '2025-11-20 01:02:00'
+     ```
+
+7. **Mostrar resumo** com totais antes/depois
+
+**Importante:**
+- Ao editar MoC, fazer apenas edições pontuais (Edit tool)
+- NUNCA recriar o arquivo inteiro (Write tool)
+- Preservar data de criação original em frontmatter e metadados
+
+---
+
 ## Workflow: Fazer Commit
 
 **Comando do usuário:** `fazer commit`
@@ -220,6 +271,34 @@ EOF
 6. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo ou cfazer commits
 7. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
 8. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
+9. **Metadados de arquivos:** Após QUALQUER edição com Edit tool, SEMPRE restaurar metadados originais (CreationTime e LastWriteTime) usando PowerShell
+
+---
+
+## Preservação de Metadados de Arquivos
+
+**CRÍTICO: A ferramenta Edit altera automaticamente LastWriteTime dos arquivos.**
+
+**Workflow obrigatório ao editar qualquer arquivo existente:**
+
+1. **ANTES de editar:** Ler metadados originais
+   ```powershell
+   Get-Item 'caminho/arquivo.md' | Select-Object CreationTime, LastWriteTime
+   ```
+
+2. **Fazer a edição** com Edit tool
+
+3. **IMEDIATAMENTE APÓS editar:** Restaurar metadados originais
+   ```powershell
+   (Get-Item 'caminho/arquivo.md').CreationTime = 'YYYY-MM-DD HH:mm:ss'
+   (Get-Item 'caminho/arquivo.md').LastWriteTime = 'YYYY-MM-DD HH:mm:ss'
+   ```
+
+**Exceções:**
+- Arquivos novos criados com Write tool (não precisam restaurar)
+- Quando explicitamente solicitado para atualizar data de modificação
+
+**Importante:** Obsidian usa esses metadados para ordenação de arquivos. Preservá-los é essencial para manter a organização do vault.
 
 ---
 

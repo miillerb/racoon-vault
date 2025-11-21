@@ -1,7 +1,7 @@
 ---
 date: 2025-11-17
 title: Dinheiro devido para a mãe enviado a terceiros
-tags: [gasto, família, mãe]
+tags: [finanças/gasto, finanças/família, finanças/mãe]
 type: gasto
 valor: 235.00
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2025-11-15
 title: Faixa de Jiu-jitsu nova para Aurora
-tags: [gasto, aurora, jiu-jitsu]
+tags: [finanças/gasto, finanças/aurora, finanças/jiu-jitsu]
 type: gasto
 valor: 45.00
 ---

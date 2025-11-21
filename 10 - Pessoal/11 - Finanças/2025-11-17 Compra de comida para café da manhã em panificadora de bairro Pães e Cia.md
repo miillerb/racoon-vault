@@ -1,7 +1,7 @@
 ---
 date: 2025-11-17
 title: Compra de comida para café da manhã em panificadora de bairro Pães e Cia
-tags: [gasto, alimentação, café-da-manhã]
+tags: [finanças/gasto, finanças/alimentação, finanças/café-da-manhã]
 type: gasto
 valor: 10.00
 ---

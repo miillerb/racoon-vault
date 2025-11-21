@@ -1,7 +1,7 @@
 ---
 date: 2025-11-17
 title: Compras de Lenço umedecido e doces na Americanas
-tags: [gasto, compras]
+tags: [finanças/gasto, finanças/compras]
 type: gasto
 valor: 43.96
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2023-12-20
 title: Transferência mãe
-tags: [receita, família]
+tags: [finanças/receita, finanças/família]
 type: receita
 valor: 1000.00
 ---

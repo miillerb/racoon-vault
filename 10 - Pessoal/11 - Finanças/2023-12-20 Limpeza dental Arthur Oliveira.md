@@ -1,7 +1,7 @@
 ---
 date: 2023-12-20
 title: Limpeza dental Arthur Oliveira
-tags: [gasto, saúde]
+tags: [finanças/gasto, finanças/saúde]
 type: gasto
 valor: 180.00
 ---

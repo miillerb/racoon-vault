@@ -1,7 +1,7 @@
 ---
 date: 2025-11-18
 title: Roupa e sapato formatura Aurora
-tags: [gasto, aurora, formatura]
+tags: [finanças/gasto, finanças/aurora, finanças/formatura]
 type: gasto
 valor: 139.17
 ---
