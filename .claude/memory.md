@@ -16,25 +16,25 @@
 
 ## Últimas Sessões
 
-### Sessão 21/11/2025 (01:17)
+### Sessão 21/11/2025 (00:01)
 - Início: 21/11/2025, 00:01:26
 - Fim: 21/11/2025, 01:17:39
 - Duração: 1h e 16min
-- Arquivo: `.claude/sessoes/2025-11-21_01-17-39.md`
+- Arquivo: `.claude/sessoes/2025-11-21_00-01-26.md`
 - Resumo: Workflow de comprovantes documentado em CLAUDE.md com 7 passos. Implementada preservação de metadados (regra crítica #9). Adicionados 2 comprovantes (13º salário R$ 980,13, Pastel R$ 66,00). MoC reordenado cronologicamente. Sistema de holerites criado e revertido. Commit 750b177 realizado. Sessões renomeadas para formato YYYY-MM-DD_HH-mm-ss.md. Sistema: 18 transações, saldo R$ 3.179,14.
 
-### Sessão 20/11/2025 (21:08)
+### Sessão 20/11/2025 (20:49)
 - Início: 20/11/2025, 20:49:57
 - Fim: 20/11/2025, 21:08:44
 - Duração: 18min
-- Arquivo: `.claude/sessoes/2025-11-20_21-08-44.md`
+- Arquivo: `.claude/sessoes/2025-11-20_20-49-57.md`
 - Resumo: Adicionadas transações de novembro (pagamentos Tio Jura 09-11/2025, fatura cartão, Espetinho R$ 54,00). Comprovantes copiados para comprovantes/.
 
 ## Links Importantes
 - Contexto completo: `.claude/contexto-projeto.md`
 - Template de sessão: `.claude/template-sessao.md`
 - Regras de commit: `00 - Meta/Regras de Commit - Raccoon.md`
-- Última sessão: `.claude/sessoes/2025-11-21_01-17-39.md`
+- Última sessão: `.claude/sessoes/2025-11-21_00-01-26.md`
 - README do vault: `00 - Meta/README.md`
 
 ## Notas Rápidas
@@ -43,7 +43,7 @@
 - Sistema de finanças ativo em `10 - Pessoal/11 - Finanças/`
 - Padrão de notas financeiras: `YYYY-MM-DD Título.md`
 - Padrão de comprovantes: `YYYY-MM-DD_HH-MM-SS - Título - valor.pdf/jpg`
-- Padrão de sessões: `YYYY-MM-DD_HH-mm-ss.md` (data e hora do FIM da sessão)
+- Padrão de sessões: `YYYY-MM-DD_HH-mm-ss.md` (data e hora do INÍCIO da sessão)
 - Sempre ler este arquivo no início de cada sessão
 - Formato de commit: título (max 50 chars) + linha vazia + bullets (sem assinatura Claude)
 - CRÍTICO: Preservar metadados após edição (CreationTime com PowerShell)

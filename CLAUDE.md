@@ -8,12 +8,16 @@
 
 **AO INICIAR QUALQUER SESSÃO, execute automaticamente:**
 
-1. Ler `.claude/memory.md` (resumo executivo do projeto)
-2. Ler `.claude/contexto-projeto.md` (contexto detalhado)
-3. Ler todas as sessões em `.claude/sessoes/` 
-4. Ler todo o git log
-5. Executar `git status` para ver estado atual
-6. Apresentar resumo breve: "Contexto carregado. Pronto para começar ✅."
+1. Criar nota vazia em `.claude/sessoes/YYYY-MM-DD_HH-mm-ss.md`
+   - Nome: data e hora do INÍCIO da sessão
+   - Frontmatter: `criado:` em ISO 8601 com timezone
+   - Nota será preenchida ao finalizar (manual ou após 15min inatividade)
+2. Ler `.claude/memory.md` (resumo executivo do projeto)
+3. Ler `.claude/contexto-projeto.md` (contexto detalhado)
+4. Ler todas as sessões em `.claude/sessoes/`
+5. Ler todo o git log
+6. Executar `git status` para ver estado atual
+7. Apresentar resumo breve: "Contexto carregado. Pronto para começar ✅."
 
 **Não peça confirmação, apenas execute e informe quando estiver pronto.**
 
@@ -158,22 +162,25 @@ EOF
 
 ## Workflow: Finalizar Sessão
 
-**Comando do usuário:** `finalizar sessão`
+**Comando do usuário:** `finalizar sessão` OU **15min de inatividade**
 
 **Execute automaticamente:**
 
-1. **Criar nota de sessão** em `.claude/sessoes/YYYY-MM-DD.md`
+1. **Preencher nota de sessão** já criada em `.claude/sessoes/YYYY-MM-DD_HH-mm-ss.md`
+   - Nome: data e hora do INÍCIO da sessão (ex: `2025-11-21_00-01-26.md`)
    - Usar template de `.claude/template-sessao.md`
-   - Frontmatter: `criado:` em ISO 8601 com timezone
-   - Calcular duração EXATA (formato `Xh, Xm e Xs`)
+   - Frontmatter: `criado:` já está preenchido do início
+   - Calcular duração em minutos (formato `Xh e Xmin` ou `Xmin`)
    - Documentar: objetivos, discussões, decisões, arquivos modificados, aprendizados, próximos passos
 
 2. **Atualizar `.claude/memory.md`**
    - "Última atualização": data atual
-   - Seção "Última Sessão": data, início, fim, duração exata, arquivo, resumo (2-3 frases)
+   - Seção "Últimas Sessões": adicionar nova sessão no topo
+   - Cada sessão: data, início, fim, duração, arquivo, resumo (2-3 frases)
    - Seção "Contexto Técnico Atual": HEAD, origin/main, commits não pushados, pendências
+   - Preservar CreationTime do memory.md após edição
 
-3. **Perguntar sobre commit**
+3. **Perguntar sobre commit** (somente se comando manual)
    - Mostrar `git status`
    - Perguntar: "Deseja fazer commit das mudanças?"
    - Se sim, seguir workflow de commit (revisar → propor mensagem → executar → perguntar push)
@@ -252,26 +259,77 @@ EOF
 
 **Execute automaticamente:**
 
-1. Executar `git status`, `git diff`, e `git log -5 --oneline` em paralelo
-2. Analisar mudanças e propor mensagem seguindo regras
-3. Adicionar arquivos com `git add` (excluir .obsidian/)
-4. Executar commit com HEREDOC
-5. Executar `git status` após commit
-6. Perguntar: "Deseja fazer push para origin/main?"
+1. Executar `git status` e analisar mudanças
+2. Propor mensagem de commit seguindo regras (título + bullets)
+3. **AGUARDAR APROVAÇÃO EXPLÍCITA DO USUÁRIO**
+4. Adicionar arquivos com `git add` (excluir .obsidian/ salvo solicitação)
+5. Executar commit com HEREDOC:
+   ```bash
+   git commit -m "$(cat <<'EOF'
+   Título do commit
+
+   - Bullet 1
+   - Bullet 2
+   EOF
+   )"
+   ```
+6. Executar `git status` após commit
+7. Perguntar: "Deseja fazer push para origin/main?"
+
+**CRÍTICO:** NUNCA commitar sem aprovação prévia do usuário
+
+---
+
+## Validação Automática de Commits
+
+**Antes de apresentar qualquer proposta de commit, validar automaticamente:**
+
+1. **Título do commit:**
+   - Máximo 50 caracteres
+   - Infinitivo
+   - Sem ponto final
+   - Se exceder, encurtar automaticamente
+
+2. **Bullets:**
+   - Máximo 72 caracteres por linha
+   - Quebrar linha com indentação de 2 espaços se exceder
+   - Todos os caminhos entre aspas simples
+   - Exemplo: `em '.claude/sessoes/'`
+
+3. **Formato:**
+   - Usar HEREDOC obrigatoriamente
+   - Linha vazia entre título e bullets
+   - Sem assinatura Claude, link ou Co-Authored-By
+
+4. **Apresentação:**
+   - Mostrar plano já validado
+   - Incluir indicadores ✓ nas validações
+   - NÃO perguntar "está de acordo com as regras?"
+
+**Só perguntar ao usuário quando houver ambiguidade sobre:**
+- Quais arquivos incluir/excluir do commit
+- Escopo muito grande (sugerir dividir)
+- Mensagem de commit (conteúdo, não formato)
+
+**Processo silencioso:** validar → ajustar → apresentar plano final
 
 ---
 
 ## Regras Críticas (NUNCA violar)
 
-1. **Commits:** NUNCA adicionar assinatura Claude
-2. **Duração:** SEMPRE calcular exata, NUNCA aproximar
-3. **Frontmatter:** SEMPRE ISO 8601 com timezone para created/updated
-4. **Links:** Máximo 1-2 por nota (filosofia Nota Mínima)
-5. **Emojis:** Usar com moderação
-6. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo ou cfazer commits
-7. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
-8. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
-9. **Metadados de arquivos:** Após QUALQUER edição com Edit tool, SEMPRE restaurar metadados originais (CreationTime e LastWriteTime) usando PowerShell
+1. **Commits:** NUNCA commitar sem aprovação prévia do usuário
+2. **Commits:** NUNCA adicionar assinatura Claude, link "Generated with Claude Code", ou "Co-Authored-By"
+3. **Commits:** SEMPRE usar HEREDOC para mensagens multi-linha
+4. **Commits:** Bullets podem quebrar linha com indentação de 2 espaços se excederem 72 chars
+5. **Duração:** Calcular em minutos (formato `Xh e Xmin` ou `Xmin`)
+6. **Frontmatter:** SEMPRE ISO 8601 com timezone para created/updated
+7. **Links:** Máximo 1-2 por nota (filosofia Nota Mínima)
+8. **Emojis:** Usar com moderação
+9. **Validação:** SEMPRE pedir confirmação antes de criar conteúdo ou fazer commits
+10. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
+11. **Metadados:** SEMPRE preservar CreationTime após edições (usar PowerShell)
+12. **Sessões:** Nomear com data e hora do INÍCIO da sessão (`YYYY-MM-DD_HH-mm-ss.md`)
+13. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
 
 ---
 
