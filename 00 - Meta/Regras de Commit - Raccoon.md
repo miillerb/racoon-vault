@@ -51,7 +51,8 @@ Correções. (❌ vago demais)
 1. Pule uma linha após o título
 2. Use **bullets** para listar mudanças
 3. Máximo **72 caracteres por linha**
-4. Detalhe o que e por quê
+4. Se bullet exceder 72 chars, quebre linha com indentação de 2 espaços
+5. Detalhe o que e por quê
 
 **Exemplo completo:**
 ```
@@ -61,6 +62,16 @@ Criar regras de commit do Raccoon
 - Estabelecer limite de 50 chars no título
 - Estabelecer limite de 72 chars por linha no corpo
 - Usar infinitivo e bullets
+```
+
+**Exemplo com quebra de linha:**
+```
+Adicionar configurações e plugins do Obsidian
+
+- Adicionar 3 plugins: notebook-navigator, minimal-settings,
+  update-time-on-edit
+- Adicionar tema Minimal
+- Atualizar configurações do Obsidian
 ```
 
 ## Comandos git básicos
@@ -101,21 +112,35 @@ git push
 
 Quando usar Claude Code para fazer commits:
 
-**Mensagem padrão:**
-```
+**Workflow obrigatório:**
+1. Mostrar `git status` e mudanças ao usuário
+2. Propor mensagem de commit seguindo formato padrão
+3. Aguardar aprovação explícita do usuário
+4. Executar commit usando HEREDOC
+
+**Formato HEREDOC:**
+```bash
+git commit -m "$(cat <<'EOF'
 Título do commit
 
 - Bullet 1
 - Bullet 2
 - Bullet 3
+EOF
+)"
 ```
 
 **Regras:**
-1. Seguir formato normal (título + corpo com bullets)
-2. Adicionar linha em branco antes dos bullets
-3. Título e bullets seguem mesmas regras (50/72 chars, infinitivo)
-4. Não adicionar assinatura Claude
+1. NUNCA commitar sem aprovação prévia do usuário
+2. Sempre usar HEREDOC para commits multi-linha
+3. Seguir formato normal (título + corpo com bullets)
+4. Adicionar linha em branco antes dos bullets
+5. Título e bullets seguem mesmas regras (50/72 chars, infinitivo)
+6. Bullets podem quebrar linha com indentação de 2 espaços
+7. Não adicionar assinatura Claude
+8. Não adicionar link "Generated with Claude Code"
+9. Não adicionar "Co-Authored-By: Claude"
 
 ---
 
-**Última atualização:** 2025-11-15
+**Última atualização:** 2025-11-21

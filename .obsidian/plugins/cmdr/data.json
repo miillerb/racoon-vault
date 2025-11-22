@@ -1,0 +1,51 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "app:reload",
+      "icon": "lucide-rotate-ccw",
+      "name": "Recarregar o app sem salvar",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "graph:open",
+      "icon": "lucide-git-fork",
+      "name": "Visualização em gráfico: Abrir visualização em gráfico",
+      "mode": "any"
+    },
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "Excluir o arquivo atual",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "word-count"
+    ],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

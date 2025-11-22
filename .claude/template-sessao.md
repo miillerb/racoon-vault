@@ -8,7 +8,7 @@ tags: [sessao-claude, topico-principal, tecnologia-usada]
 ## Informações da Sessão
 - **Início da sessão:** DD/MM/YYYY, HH:mm:ss
 - **Fim da sessão:** DD/MM/YYYY, HH:mm:ss
-- **Duração:** [Xh, Xm e Xs conforme necessário]
+- **Duração:** [Xh e Xmin ou Xmin]
 - **Contexto:** [Breve descrição do que motivou a sessão]
 
 ## Objetivos

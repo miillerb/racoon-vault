@@ -8,35 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcf952f44ba6bc22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
             "id": "b4983fd9a2724519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bem-vindo de volta.md",
+                "file": "Migration/UpNote/Saúde/Exames laboratoriais realizados no Hospital Santa Angélica em 28-05-2019.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exames laboratoriais realizados no Hospital Santa Angélica em 28-05-2019"
+            }
+          },
+          {
+            "id": "1a8f9eab3e60132b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "938626454bf2b679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Meta/Regras de Commit - Raccoon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bem-vindo de volta"
+              "title": "Regras de Commit - Raccoon"
+            }
+          },
+          {
+            "id": "2239706d32e981e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sem título"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 287.5
   },
   "right": {
     "id": "1d91d3a147413245",
@@ -197,7 +221,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Bem-vindo de volta.md"
+                "file": "CLAUDE.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas de rodapé"
@@ -222,44 +246,50 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "8b9627628a9b3c8b",
+  "active": "938626454bf2b679",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "20 - Trabalho/21 - Júpiter Internet/📁 Trabalho Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2025-05 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/Holerite Juputer Internet - Bruno de Oliveira Miiller - 05-2025.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-11 Holerite 13º Salário (1ª Parcela) Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-07 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-08 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-09 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-09 Holerite Júpiter Internet (Holerith).md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-10 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-11 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite 13º Salário Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/2024-12 Holerite Júpiter Internet.md.tmp.15128.1763698138118",
-    "20 - Trabalho/21 - Júpiter Internet/2024-06 Holerite Júpiter Internet.md",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-11 - holerite.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-12 - holerite - decimo terceiro.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-12 - holerite.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/Holerith Juputer Internet - Bruno de Oliveira Miiller - 09-2024.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-11 - holerite - primeira parcela do decimo terceiro.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-10 - holerite.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-09 - holerite.pdf",
-    "20 - Trabalho/21 - Júpiter Internet/holerites/2024-08 - holerite.pdf",
-    "10 - Pessoal/11 - Finanças/📁 Minhas finanças.md",
-    "10 - Pessoal/11 - Finanças/2025-11-18 Roupa e sapato formatura Aurora.md",
-    "10 - Pessoal/11 - Finanças/2025-11-20 Recebimento da primeira parcela do 13º salário - Júpiter Internet.md",
-    "10 - Pessoal/11 - Finanças/2025-11-20 Janta de Pastel no Malagueta Pastel.md",
-    "10 - Pessoal/11 - Finanças/2025-11-04 Janta de Espetinho no Rubens.md",
-    "10 - Pessoal/11 - Finanças/2023-12-20 Transferência mãe.md",
-    "10 - Pessoal/11 - Finanças/2025-11-12 Pagamento da fatura do Cartão de Crédito Inter - 11-2025.md",
-    "10 - Pessoal/11 - Finanças/2025-09-01 Pagamento de Juros de 45.000,00 do Tio Jura - 09-2025.md",
-    "10 - Pessoal/11 - Finanças/2025-10-03 Pagamento de Juros de 45.000,00 do Tio Jura - 10-2025.md",
-    "10 - Pessoal/11 - Finanças/2025-11-01 Pagamento de Juros de 45.000,00 do Tio Jura - 11-2025.md",
+    "Sem título.md",
+    "00 - Meta/Regras de Commit - Raccoon.md",
+    "Migration/UpNote/Saúde/Exames laboratoriais realizados no Hospital Santa Angélica em 28-05-2019.md",
+    "CLAUDE.md.tmp.37236.1763784866333",
+    "CLAUDE.md.tmp.37236.1763784782404",
+    "CLAUDE.md.tmp.37236.1763784762705",
+    "Migration/UpNote/Recursos/Métodos Musicais.md.tmp.37236.1763784564940",
+    "Migration/UpNote/Estudos/Gabaritos ENCCEJA 2019.md.tmp.37236.1763784471366",
+    "Migration/Migração UpNote.md.tmp.37236.1763783708218",
+    "Migration/Migração UpNote.md.tmp.37236.1763783696703",
+    "Migration/UpNote/Saúde/Laudo Médico Oftalmológico 2018.md",
+    "00 - Meta/02 Arquivos/Exame de sangue - 2019-06-28 - Exames laboratoriais completos do Hospital Santa Angélica - Arquivo 01.pdf",
+    "Migration/UpNote/Hemograma.md",
+    "UpNote_2025-11-22_00-44-32/Hemograma.md",
+    "UpNote_2025-11-22_00-44-32/Files/Hemograma.pdf",
+    "UpNote_2025-11-22_00-44-32/Files",
+    "Migration/UpNote/Finanças/Recibo de óculos do Bruno e da Giovanna na Ótica Primavera em 17-11-2017.md",
+    "Migration/UpNote/Recibo de Óculos Ótica Primavera 111117.md",
+    "Migration/UpNote/Hemograma 111117.md",
+    "UpNote_2025-11-22_00-17-07/Hemograma 111117.md",
+    "Migration/Migração UpNote.md",
+    "Migration/UpNote/Estudos/Gabaritos ENCCEJA 2019.md",
+    "Migration/UpNote/Recursos/Métodos Musicais.md",
+    "Migration/UpNote/Métodos Musicais.md",
+    "UpNote_2025-11-21_23-51-50/Métodos Musicais.md",
+    "UpNote_2025-11-21_23-12-49/Nota Sem Título.md",
+    "00 - Meta/01 Inbox/Dr. Thiago Trindade - Made Of Iron 033 (voltar em 00-57-32).md",
+    "Migration/UpNote/Nota Sem Título.md",
+    "00 - Meta/02 Arquivos/Documento - Laudo Médico Oftalmológico 2018 - Imagem 01.jpg",
+    "Migration/UpNote/Laudo Médico Oftalmológico 2018.md",
+    "UpNote_2025-11-21_22-53-51/Laudo Médico Oftalmológico 2018.md",
+    "UpNote_2025-11-21_22-53-51/Files/BRUNO DE OLIVEIRA16052018-1.jpg",
     "Bem-vindo de volta.md",
-    "10 - Pessoal/11 - Finanças/2025-11-15 Faixa de Jiu-jitsu nova para Aurora.md",
-    "Untitled.md",
+    "CLAUDE.md",
+    "00 - Meta/02 Arquivos/Miniatura do vídeo - Dr. Thiago Trindade - Made Of Iron 033 (voltar em 00-57-32) - Imagem 01.jpg",
+    "00 - Meta/02 Arquivos/Miniatura do vídeo - Dr. Thiago Trindade - Made Of Iron 033 (voltar em 00-57-32).jpg",
+    "00 - Meta/02 Arquivos/Dr. Thiago Trindade - Made Of Iron 033 (voltar em 00-57-32).jpg",
+    "00 - Meta/01 Inbox/l7cHRzpL0Ho.jpg",
+    "00 - Meta/01 Inbox/A toca do Coelho da Produtividade e da má interpretação e implementação do Segundo Cérebro.md",
+    "UpNote_2025-11-21_18-49-08/Voltar em 005700.md",
+    "00 - Meta/01 Inbox/Workflow UpNote → Obsidian.md",
+    "UpNote_2025-11-21_18-41-22/A toca do Coelho da Produtividade e da má interpretação e implementação do Segundo Cérebro.md",
     "10 - Pessoal/11 - Finanças/comprovantes/2023-12-20 - Limpeza dental com o Arthur Oliveira - 180,00.jpg",
     "2023-12-20 - Limpeza dental com o Arthur Oliveira - 180,00.jpg"
   ]

@@ -37,7 +37,7 @@
   "mobileBackground": "primary",
   "mobileScale": 1,
   "dateFormat": "MMM d, yyyy",
-  "timeFormat": "h:mm a",
+  "timeFormat": "HH:mm",
   "skipAutoScroll": false,
   "showSectionIcons": true,
   "showShortcuts": true,
@@ -301,8 +301,17 @@
   "folderIcons": {},
   "folderColors": {},
   "folderBackgroundColors": {},
-  "folderSortOverrides": {},
-  "folderAppearances": {},
+  "folderSortOverrides": {
+    "/": "created-desc",
+    "Migration": "created-desc"
+  },
+  "folderAppearances": {
+    "Migration": {
+      "showDate": false,
+      "showPreview": false,
+      "showImage": false
+    }
+  },
   "tagIcons": {},
   "tagColors": {},
   "tagBackgroundColors": {},
@@ -313,7 +322,7 @@
   "lastShownVersion": "",
   "latestKnownRelease": "1.8.6",
   "lastAnnouncedRelease": "",
-  "lastReleaseCheckAt": 1763603793601,
+  "lastReleaseCheckAt": 1763759586033,
   "rootFolderOrder": [],
   "rootTagOrder": []
 }
