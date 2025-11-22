@@ -16,6 +16,13 @@
 
 ## Últimas Sessões
 
+### Sessão 22/11/2025 (10:15)
+- Início: 22/11/2025, 10:15:10
+- Fim: 22/11/2025, 10:32:26
+- Duração: 17min
+- Arquivo: `.claude/sessoes/2025-11-22_10-15-10.md`
+- Resumo: Documentação retroativa de sessão 21/11 (21:52-01:46). Calculada duração exata (3h e 54min) via git reflog. Preenchida nota de sessão 2025-11-21_21-52-00.md completamente. Corrigida duração sessão 00:01 para 1h e 48min. Atualizado memory.md com nova sessão. Commit a6ae7f8 com título alterado via amend (sem datas). Push realizado para origin/main. Total: 2 arquivos modificados (90 linhas adicionadas, 27 removidas).
+
 ### Sessão 21/11/2025 (21:52)
 - Início: 21/11/2025, 21:52:00
 - Fim: 22/11/2025, 01:46:59
@@ -41,7 +48,7 @@
 - Contexto completo: `.claude/contexto-projeto.md`
 - Template de sessão: `.claude/template-sessao.md`
 - Regras de commit: `00 - Meta/Regras de Commit - Raccoon.md`
-- Última sessão: `.claude/sessoes/2025-11-21_21-52-00.md`
+- Última sessão: `.claude/sessoes/2025-11-22_10-15-10.md`
 - README do vault: `00 - Meta/README.md`
 
 ## Notas Rápidas
