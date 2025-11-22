@@ -1,6 +1,6 @@
 # Memória Claude - Raccoon Vault
 
-**Última atualização:** 2025-11-21
+**Última atualização:** 2025-11-22
 
 ## Resumo do Projeto
 - Vault Obsidian chamado "Raccoon"
@@ -16,10 +16,17 @@
 
 ## Últimas Sessões
 
+### Sessão 21/11/2025 (21:52)
+- Início: 21/11/2025, 21:52:00
+- Fim: 22/11/2025, 01:46:59
+- Duração: 3h e 54min
+- Arquivo: `.claude/sessoes/2025-11-21_21-52-00.md`
+- Resumo: Padronização de nomenclatura de sessões para timestamp de INÍCIO. Renomeadas 4 sessões existentes (2025-11-16, 2025-11-19, 2025-11-20, 2025-11-21). Documentado workflow completo UpNote → Obsidian em CLAUDE.md (5 passos). Implementada validação automática de commits (título ≤50 chars, bullets ≤72 chars). Criadas estruturas 00 - Meta/01 Inbox/ e 02 Arquivos/. Importadas 3 notas do UpNote + 1 imagem (89 KB). Commit d6315d7 realizado. Total: 11 arquivos modificados (307 linhas adicionadas, 33 removidas).
+
 ### Sessão 21/11/2025 (00:01)
 - Início: 21/11/2025, 00:01:26
-- Fim: 21/11/2025, 01:17:39
-- Duração: 1h e 16min
+- Fim: 21/11/2025, 01:49:59
+- Duração: 1h e 48min
 - Arquivo: `.claude/sessoes/2025-11-21_00-01-26.md`
 - Resumo: Workflow de comprovantes documentado em CLAUDE.md com 7 passos. Implementada preservação de metadados (regra crítica #9). Adicionados 2 comprovantes (13º salário R$ 980,13, Pastel R$ 66,00). MoC reordenado cronologicamente. Sistema de holerites criado e revertido. Commit 750b177 realizado. Sessões renomeadas para formato YYYY-MM-DD_HH-mm-ss.md. Sistema: 18 transações, saldo R$ 3.179,14.
 
@@ -34,7 +41,7 @@
 - Contexto completo: `.claude/contexto-projeto.md`
 - Template de sessão: `.claude/template-sessao.md`
 - Regras de commit: `00 - Meta/Regras de Commit - Raccoon.md`
-- Última sessão: `.claude/sessoes/2025-11-21_00-01-26.md`
+- Última sessão: `.claude/sessoes/2025-11-21_21-52-00.md`
 - README do vault: `00 - Meta/README.md`
 
 ## Notas Rápidas
@@ -49,16 +56,13 @@
 - CRÍTICO: Preservar metadados após edição (CreationTime com PowerShell)
 
 ## Contexto Técnico Atual
-- Branch: main (HEAD: 750b177)
-- Remote: origin → https://github.com/miillerb/racoon-vault.git (origin/main: ff839c0)
-- Último commit local: "Atualizar finanças e documentar workflow" (750b177)
-- Último commit remoto: "Adaptar README para compatibilidade GitHub" (ff839c0)
-- ⚠️ 5 commits locais não pushados:
-  1. 750b177 - Atualizar finanças e documentar workflow
-  2. 8c48254 - Ajustar CLAUDE.md com inicialização expandida
-  3. 01c1e9c - Configurar CLAUDE.md e atualizar contexto
-  4. 6a75f5b - Adicionar 4 transações e criar MoC finanças
-  5. 654a018 - Implementar sistema de finanças no Raccoon
+- Branch: main (HEAD: 5101996)
+- Remote: origin → https://github.com/miillerb/racoon-vault.git (origin/main: 5101996)
+- Último commit local: "Implementar sistema de migração de notas do UpNote" (5101996)
+- Último commit remoto: "Implementar sistema de migração de notas do UpNote" (5101996)
+- ✅ Repositório sincronizado com origin/main
 - Sistema de memória funcional e documentado
 - Workflow de comprovantes documentado em CLAUDE.md
-- Pendências: push dos 5 commits, arquivos .obsidian/ modificados
+- Workflow UpNote → Obsidian documentado em CLAUDE.md
+- Validação automática de commits implementada
+- Pendências: processar notas em 00 - Meta/01 Inbox/, arquivos .obsidian/ modificados
