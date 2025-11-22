@@ -1,6 +1,6 @@
 ---
 created: 2025-11-21T22:50:42-03:00
-updated: 2025-11-22T00:52:00-03:00
+updated: 2025-11-22T17:15:00-03:00
 title: Migração UpNote
 tags: [migration, upnote, workflow]
 type: documentação
@@ -54,7 +54,7 @@ type: captura-rapida
 
 **Duplo formato (UpNote + Raccoon):**
 - **Frontmatter:** `tags: [tag1, tag2]` (formato Raccoon)
-- **Corpo:** `#tag1 #tag2` (formato UpNote preservado)
+- **Corpo:** `#tag1; #tag2` (formato inline com ponto e vírgula)
 
 Exemplo:
 ```markdown
@@ -63,8 +63,7 @@ tags: [clippings, produtividade]
 ---
 
 # Título
-
-#clippings #produtividade
+#clippings; #produtividade
 
 Conteúdo...
 ```
@@ -108,20 +107,21 @@ Claude irá automaticamente:
 ## Progresso
 
 **Total:** 1243 notas
-**Processadas:** 5
-**Restantes:** 1238
+**Processadas:** 7
+**Restantes:** 1236
 
 **Lotes migrados:**
 - [x] Lote 1 (21-22/11/2025, 5 notas)
-- [ ] Lote 2 (data, quantidade)
+- [x] Lote 2 (22/11/2025, 1 nota)
+- [x] Lote 3 (22/11/2025, 1 nota)
 
 ## Categorias Encontradas
 
 **Saúde:** 2 notas
 **Estudos:** 1 nota
 **Recursos:** 1 nota
-**Finanças:** 1 nota
+**Finanças:** 3 notas
 
 ---
 
-**Última atualização:** 22/11/2025, 00:52:00
+**Última atualização:** 22/11/2025, 17:15:00

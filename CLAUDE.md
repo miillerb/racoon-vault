@@ -401,6 +401,7 @@ EOF
 11. **Metadados:** SEMPRE preservar CreationTime após edições (usar PowerShell)
 12. **Sessões:** Nomear com data e hora do INÍCIO da sessão (`YYYY-MM-DD_HH-mm-ss.md`)
 13. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
+14. **Campo created:** NUNCA atualizar `created:` de notas já existentes ou migradas - é IMUTÁVEL
 
 ---
 
