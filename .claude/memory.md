@@ -1,6 +1,6 @@
 # Memória Claude - Raccoon Vault
 
-**Última atualização:** 2025-11-22
+**Última atualização:** 2025-11-23
 
 ## Resumo do Projeto
 - Vault Obsidian chamado "Raccoon"
@@ -15,6 +15,13 @@
 - Sempre mostrar plano detalhado antes de executar tarefas
 
 ## Últimas Sessões
+
+### Sessão 22/11/2025 (15:25)
+- Início: 22/11/2025, 15:25:17
+- Fim: 22/11/2025, 17:40:00
+- Duração: 2h e 15min
+- Arquivo: `.claude/sessoes/2025-11-22_15-25-17.md`
+- Resumo: Migração Lote 2 e 3 do UpNote. Limpar Downloads (3 PDFs deletados). Migradas 2 notas para Finanças: "Minhas Contas e Cartões de Banco" e "2019-07 - Contracheque Eletronorte". Adicionado PDF contracheque em Arquivos/. Criada nota diário sobre momento com Malu. Regra crítica #14: campo 'created:' é imutável. Tags inline com ponto e vírgula. Progresso: 7/1243 notas. Commit b870980.
 
 ### Sessão 22/11/2025 (10:15)
 - Início: 22/11/2025, 10:15:10

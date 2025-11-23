@@ -6,7 +6,8 @@
       "Bash(powershell -Command:*)",
       "Bash(git add:*)",
       "Bash(git rm:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

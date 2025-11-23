@@ -2,7 +2,7 @@
 title: 📁 Minhas finanças
 date: 2025-11-20
 created: 2025-11-20T01:02:00-03:00
-updated: 2025-11-21T00:15:00-03:00
+updated: 2025-11-23T12:00:00-03:00
 tags:
   - finanças
   - moc
@@ -36,14 +36,15 @@ Visão geral de todas as minhas transações financeiras. Também pode ser visto
 | 18/11/2025 | [Pensão da Aurora - 11-2025](2025-11-18%20Pens%C3%A3o%20da%20Aurora%20-%2011-2025.md)                                                                                                                         | Aurora      | gasto     | 400,00       |
 | 20/11/2025 | [Recebimento da primeira parcela do 13º salário - Júpiter Internet](2025-11-20%20Recebimento%20da%20primeira%20parcela%20do%2013%C2%BA%20sal%C3%A1rio%20-%20J%C3%BApiter%20Internet.md)                      | Renda       | receita   | 980,13       |
 | 20/11/2025 | [Janta de Pastel no Malagueta Pastel](2025-11-20%20Janta%20de%20Pastel%20no%20Malagueta%20Pastel.md)                                                                                                          | Alimentação | gasto     | 66,00        |
-| **Total**  | **Gastos: R$ 2.850,99 · Receitas: R$ 6.030,13**                                                                                                                                                               |             | **Saldo** | **3.179,14** |
+| 22/11/2025 | [Abastecimento do Idea no Auto Posto São Pedro](2025-11-22%20Abastecimento%20do%20Idea%20no%20Auto%20Posto%20S%C3%A3o%20Pedro.md)                                                                             | Transporte  | gasto     | 100,00       |
+| **Total**  | **Gastos: R$ 2.950,99 · Receitas: R$ 6.030,13**                                                                                                                                                               |             | **Saldo** | **3.079,14** |
 
 ## Resumo
 
-- **Total de transações:** 18
-- **Gastos:** 13 (R$ 2.850,99)
+- **Total de transações:** 19
+- **Gastos:** 14 (R$ 2.950,99)
 - **Receitas:** 5 (R$ 6.030,13)
-- **Saldo:** R$ 3.179,14
+- **Saldo:** R$ 3.079,14
 
 ## Categorias principais
 

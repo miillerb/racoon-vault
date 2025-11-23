@@ -1,6 +1,6 @@
 ---
 created: 2025-11-21T22:50:42-03:00
-updated: 2025-11-22T17:15:00-03:00
+updated: 2025-11-23T12:00:00-03:00
 title: Migração UpNote
 tags: [migration, upnote, workflow]
 type: documentação
@@ -107,21 +107,22 @@ Claude irá automaticamente:
 ## Progresso
 
 **Total:** 1243 notas
-**Processadas:** 7
-**Restantes:** 1236
+**Processadas:** 8
+**Restantes:** 1235
 
 **Lotes migrados:**
 - [x] Lote 1 (21-22/11/2025, 5 notas)
 - [x] Lote 2 (22/11/2025, 1 nota)
 - [x] Lote 3 (22/11/2025, 1 nota)
+- [x] Lote 4 (23/11/2025, 1 nota)
 
 ## Categorias Encontradas
 
 **Saúde:** 2 notas
 **Estudos:** 1 nota
 **Recursos:** 1 nota
-**Finanças:** 3 notas
+**Finanças:** 4 notas
 
 ---
 
-**Última atualização:** 22/11/2025, 17:15:00
+**Última atualização:** 23/11/2025, 12:00:00
