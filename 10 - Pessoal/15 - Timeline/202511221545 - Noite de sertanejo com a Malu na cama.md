@@ -1,12 +1,12 @@
 ---
 created: 2025-11-22T15:45:00-03:00
 updated: 2025-11-22T15:45:00-03:00
-title: 202511221545 - Noite de sertanejo com a Malu na cama
+title: sex, 22 de nov. de 2025, 15:45 - Noite de sertanejo com a Malu na cama
 tags: [timeline/2025, momento, familia, malu, musica]
 type: diario
 ---
 
-# 202511221545 - Noite de sertanejo com a Malu na cama
+# sex, 22 de nov. de 2025, 15:45 - Noite de sertanejo com a Malu na cama
 
 ---
 

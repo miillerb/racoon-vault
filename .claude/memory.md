@@ -16,6 +16,13 @@
 
 ## Últimas Sessões
 
+### Sessão 23/11/2025 (13:45)
+- Início: 23/11/2025, 13:45:27
+- Fim: 23/11/2025, 16:50:22
+- Duração: 3h e 5min
+- Arquivo: `.claude/sessoes/2025-11-23_13-45-27.md`
+- Resumo: Análise de versionamento git (v0.2.0 não criada - evitar trabalho administrativo). Coletadas estatísticas do cofre: 61 notas, 21 MB, 137 KB markdown (2,2 KB/nota). Avaliação filosofia Raccoon: finanças consolidado (21 transações), Timeline nascente (3 entradas), resto vazio por design. Interpretação corrigida: Bruno não está devaneando, está construindo conforme usa. Aplicado valor Flexibilidade ao alertar sobre trabalho administrativo desnecessário.
+
 ### Sessão 22/11/2025 (15:25)
 - Início: 22/11/2025, 15:25:17
 - Fim: 22/11/2025, 17:40:00
@@ -70,13 +77,13 @@
 - CRÍTICO: Preservar metadados após edição (CreationTime com PowerShell)
 
 ## Contexto Técnico Atual
-- Branch: main (HEAD: 5101996)
-- Remote: origin → https://github.com/miillerb/racoon-vault.git (origin/main: 5101996)
-- Último commit local: "Implementar sistema de migração de notas do UpNote" (5101996)
-- Último commit remoto: "Implementar sistema de migração de notas do UpNote" (5101996)
+- Branch: main (HEAD: b7bed7d)
+- Remote: origin → https://github.com/miillerb/racoon-vault.git (origin/main: b7bed7d)
+- Último commit local: "Criar sistema de timeline e migrar comprovante" (b7bed7d)
+- Último commit remoto: "Criar sistema de timeline e migrar comprovante" (b7bed7d)
 - ✅ Repositório sincronizado com origin/main
 - Sistema de memória funcional e documentado
 - Workflow de comprovantes documentado em CLAUDE.md
 - Workflow UpNote → Obsidian documentado em CLAUDE.md
 - Validação automática de commits implementada
-- Pendências: processar notas em 00 - Meta/01 Inbox/, arquivos .obsidian/ modificados
+- Pendências: arquivos .obsidian/ modificados, novos arquivos não rastreados (transação, comprovante, MoC diário, pastas Index/Versão/Recursos, arquivo NUL)

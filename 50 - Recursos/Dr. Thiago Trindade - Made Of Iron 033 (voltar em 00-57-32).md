@@ -13,7 +13,5 @@ type: captura-rapida
 ![[Miniatura do vídeo - Dr. Thiago Trindade - Made Of Iron 033 (voltar em 00-57-32) - Imagem 01.jpg]]
 
 **Vídeo:** Dr. Thiago Trindade - Made Of Iron 033
-
 **Timestamp:** 00:57:32
-
 **Link:** https://youtube.com/live/l7cHRzpL0Ho?t=3452

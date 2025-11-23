@@ -1,8 +1,12 @@
 ---
+title: dom, 23 de nov. de 2025, 12:00 - Café com minha mãe e dia em família
+tags:
+  - timeline/2025
+  - familia
+  - mae
+  - rotina
 created: 2025-11-23T12:00:00-03:00
 updated: 2025-11-23T12:00:00-03:00
-title: dom, 23 de nov. de 2025, 12:00 - Café com minha mãe e dia em família
-tags: [timeline/2025, familia, mae, rotina]
 type: diario
 ---
 
