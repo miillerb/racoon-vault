@@ -36,6 +36,38 @@ Desde 15/11/2025, você tem trabalhado para criar um sistema que:
 3. **Organização** - clareza sobre o que merece atenção
 4. **Acessibilidade** - alto contraste e definição visual sempre
 
+## Estrutura do Vault
+
+```
+Raccoon/
+├── .claude/                   # Memória persistente Claude Code
+│   ├── memory.md              # Resumo executivo (LER ao iniciar)
+│   ├── contexto-projeto.md    # Contexto detalhado
+│   ├── sessoes/               # Histórico de trabalho
+│   └── template-sessao.md     # Template para finalizar sessão
+├── 00 - Meta/                 # Sobre Bruno e o sistema
+│   ├── 01 Inbox/              # Capturas rápidas para processar
+│   ├── 02 Arquivos/           # Anexos (PDFs, imagens)
+│   ├── 03 - Modelos/          # Templates de notas
+│   ├── 04 Index/              # Índices e mapas de conteúdo (MoCs)
+│   └── 05 Versão/             # Documentação de versões do vault
+├── 10 - Pessoal/              # Vida pessoal
+│   ├── 11 - Finanças/         # Sistema ativo: transações + MoC
+│   │   └── comprovantes/      # PDFs e imagens de comprovantes
+│   └── 15 - Timeline/         # Diário pessoal e linha do tempo
+├── 20 - Trabalho/             # Trabalho (vazio)
+├── 30 - Estudos/              # Aprendizado (vazio)
+├── 40 - Projetos/             # Projetos (vazio)
+├── 50 - Recursos/             # Recursos e referências (vazio)
+├── 90 - Arquivo/              # Material antigo (vazio)
+├── Bases/                     # Arquivos .base (Plugin nativo Bases)
+├── Clippings/                 # [Temporária] Recortes e clippings
+└── Migration/                 # [Temporária] Migração de dados
+    └── UpNote/                # Notas do UpNote em processo
+```
+
+---
+
 ## Lembre-se
 
 Quando tiver disperso (devaneando demais):
