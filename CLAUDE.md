@@ -160,6 +160,32 @@ EOF
 
 ---
 
+## Captura de Timestamps em Pausas
+
+**CRÍTICO: Quando usuário pedir para pausar/sair, SEMPRE execute imediatamente:**
+
+```powershell
+powershell -Command "Get-Date -Format 'yyyy-MM-ddTHH:mm:ss-03:00'"
+```
+
+**Razão:** Necessário para calcular duração exata da sessão. Sem isso, não há como recuperar o timestamp depois.
+
+**Comandos que indicam pausa:**
+- "pausa"
+- "estarei saindo"
+- "tenho que sair"
+- "volto já"
+- Qualquer indicação de interrupção temporária
+
+**Ação obrigatória:**
+1. Executar `Get-Date` ANTES de responder
+2. Anotar mentalmente o timestamp
+3. Responder ao usuário confirmando pausa
+
+**Erro identificado em sessão 24/11/2025:** Não capturei timestamp quando usuário pediu pausa, impossibilitando cálculo exato de duração. Nunca mais repetir.
+
+---
+
 ## Workflow: Finalizar Sessão
 
 **Comando do usuário:** `finalizar sessão` OU **15min de inatividade**

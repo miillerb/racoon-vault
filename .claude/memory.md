@@ -1,6 +1,6 @@
 # Memória Claude - Raccoon Vault
 
-**Última atualização:** 2025-11-23
+**Última atualização:** 2025-11-24
 
 ## Resumo do Projeto
 - Vault Obsidian chamado "Raccoon"
@@ -15,6 +15,13 @@
 - Sempre mostrar plano detalhado antes de executar tarefas
 
 ## Últimas Sessões
+
+### Sessão 24/11/2025 (19:19)
+- Início: 24/11/2025, 19:19:03
+- Fim: 24/11/2025, 20:40:00
+- Duração: 1h e 21min
+- Arquivo: `.claude/sessoes/2025-11-24_19-19-03.md`
+- Resumo: Registrado dia difícil (briga com mãe da Aurora, ajuda com telefone novo da mãe, acordo com advogado). Criada nota de diário em Timeline. Auxiliado transferência WhatsApp entre A54 e A56: exploradas 5 opções (Files, Syncthing, microSD, PC, ADB), decidido usar ADB para preservar metadados. Documentado processo em recurso. Pausado por problema conexão USB (drivers instalados, não resolvido). Identificado erro crítico: não capturou timestamp ao pausar. Adicionada regra em CLAUDE.md para sempre capturar timestamp em pausas.
 
 ### Sessão 23/11/2025 (13:45)
 - Início: 23/11/2025, 13:45:27
