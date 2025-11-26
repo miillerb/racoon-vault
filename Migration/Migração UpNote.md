@@ -1,6 +1,6 @@
 ---
 created: 2025-11-21T22:50:42-03:00
-updated: 2025-11-23T12:00:00-03:00
+updated: 2025-11-26T15:15:00-03:00
 title: Migração UpNote
 tags: [migration, upnote, workflow]
 type: documentação
@@ -12,7 +12,9 @@ type: documentação
 
 ## Propósito
 
-Migrar 1243 notas do UpNote para o Raccoon de forma organizada e controlada.
+Migrar as **1248 notas sem categoria** do UpNote para o Raccoon de forma organizada e controlada.
+
+**Notas:** O UpNote possui 2358 notas totais, mas apenas as 1248 marcadas como "Sem categoria" serão migradas. As demais já estão organizadas em Cadernos no UpNote e permanecerão lá.
 
 ## Estrutura
 
@@ -106,23 +108,24 @@ Claude irá automaticamente:
 
 ## Progresso
 
-**Total:** 1243 notas
-**Processadas:** 8
-**Restantes:** 1235
+**Total:** 1248 notas (apenas "Sem categoria")
+**Processadas:** 9
+**Restantes:** 1239
 
 **Lotes migrados:**
 - [x] Lote 1 (21-22/11/2025, 5 notas)
 - [x] Lote 2 (22/11/2025, 1 nota)
 - [x] Lote 3 (22/11/2025, 1 nota)
 - [x] Lote 4 (23/11/2025, 1 nota)
+- [x] Lote 5 (26/11/2025, 1 nota)
 
 ## Categorias Encontradas
 
-**Saúde:** 2 notas
+**Saúde:** 3 notas
 **Estudos:** 1 nota
 **Recursos:** 1 nota
 **Finanças:** 4 notas
 
 ---
 
-**Última atualização:** 23/11/2025, 12:00:00
+**Última atualização:** 26/11/2025, 15:15:00
