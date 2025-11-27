@@ -1,3 +1,7 @@
+---
+type: documentação
+tags:
+---
 # Changelog
 
 Todas as mudanças notáveis do Raccoon Vault serão documentadas neste arquivo.
@@ -5,7 +9,6 @@ Todas as mudanças notáveis do Raccoon Vault serão documentadas neste arquivo.
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [0.1.4] - 25/11/2025
-
 Expansão da documentação da estrutura do vault com todas as subpastas e pastas temporárias.
 
 ### Adicionado
@@ -23,7 +26,6 @@ Expansão da documentação da estrutura do vault com todas as subpastas e pasta
 - CLAUDE.md versão atualizada para 1.1
 
 ## [0.1.3] - 24/11/2025
-
 Sistema de Timeline criado e workflow de pausas implementado para preservar timestamps.
 
 ### Adicionado
@@ -40,7 +42,6 @@ Sistema de Timeline criado e workflow de pausas implementado para preservar time
 - Sistema de finanças: 21 transações, saldo R$ 3.179,14
 
 ## [0.1.2] - 23/11/2025
-
 Confirmação da filosofia Raccoon em uso: construir conforme necessidade real.
 
 ### Adicionado
@@ -54,7 +55,6 @@ Confirmação da filosofia Raccoon em uso: construir conforme necessidade real.
 - Aplicado valor Flexibilidade: evitado trabalho administrativo desnecessário
 
 ## [0.1.1] - 22/11/2025
-
 Migração de notas do UpNote e documentação retroativa de sessões.
 
 ### Adicionado
@@ -72,7 +72,6 @@ Migração de notas do UpNote e documentação retroativa de sessões.
 - Memory.md atualizado com nova sessão
 
 ## [0.1.0] - 21/11/2025
-
 Workflow de importação UpNote → Obsidian implementado e validação automática de commits.
 
 ### Adicionado
@@ -86,7 +85,6 @@ Workflow de importação UpNote → Obsidian implementado e validação automát
 - 4 sessões renomeadas para formato YYYY-MM-DD_HH-mm-ss.md
 
 ## [0.0.3] - 20/11/2025
-
 Sistema de finanças completo implementado com MoC, transações e comprovantes.
 
 ### Adicionado
@@ -105,7 +103,6 @@ Sistema de finanças completo implementado com MoC, transações e comprovantes.
 - MoC reordenado cronologicamente (mais antigo primeiro)
 
 ## [0.0.2] - 16/11/2025
-
 Sistema de memória persistente para Claude Code implementado com formatos padronizados.
 
 ### Adicionado
@@ -122,7 +119,6 @@ Sistema de memória persistente para Claude Code implementado com formatos padro
 - Merge com repositório remoto (origin/main)
 
 ## [0.0.1] - 15/11/2025
-
 Repositório inicializado com manifesto e sistema de memória Claude.
 
 ### Adicionado
@@ -139,7 +135,6 @@ Repositório inicializado com manifesto e sistema de memória Claude.
 ## Versionamento Semântico
 
 Formato: **MAJOR.MINOR.PATCH** (ex: 1.2.3)
-
 - **MAJOR** (1.0.0): Mudanças incompatíveis que quebram funcionalidade existente
 - **MINOR** (0.1.0): Novos recursos adicionados de forma retrocompatível
 - **PATCH** (0.0.1): Correções de bugs e pequenas melhorias

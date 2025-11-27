@@ -1,3 +1,11 @@
+---
+type: moc
+tags:
+  - vida-pessoal
+  - história-pessoal
+  - moc
+date: 2025-11-25
+---
 
 # 📁 Meu Diário
 

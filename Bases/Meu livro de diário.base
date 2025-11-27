@@ -9,3 +9,24 @@ views:
     filters:
       and:
         - type == "diario"
+  - type: cards
+    name: Cartão
+    filters:
+      and:
+        - file.ext != "Pdf"
+        - file.ext != "Jpg"
+    order:
+      - file.name
+      - type
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 280
+  - type: list
+    name: Lista
+    sort:
+      - property: file.mtime
+        direction: DESC
+    indentProperties: true
+    markers: bullet
