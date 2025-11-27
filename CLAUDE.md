@@ -12,14 +12,12 @@
    - Nome: data e hora do INÍCIO da sessão
    - Frontmatter: `criado:` em ISO 8601 com timezone
    - Nota será preenchida ao finalizar (manual ou após 15min inatividade)
-2. Ler `.claude/memory.md` (resumo executivo do projeto)
-3. Ler `.claude/contexto-projeto.md` (contexto detalhado)
-4. Ler todas as sessões em `.claude/sessoes/`
-5. Ler todo o git log
-6. Executar `git status` para ver estado atual
-7. Apresentar resumo breve: "Contexto carregado. Pronto para começar ✅."
+2. Executar `git status` para ver estado atual
+3. Apresentar: "Pronto para começar ✅"
 
 **Não peça confirmação, apenas execute e informe quando estiver pronto.**
+
+**Nota:** Contexto completo está em CLAUDE.md (lido automaticamente). Consultar `.claude/memory.md` apenas quando necessário (histórico/contexto adicional).
 
 ---
 
@@ -42,8 +40,7 @@
 ```
 Raccoon/
 ├── .claude/                   # Memória persistente Claude Code
-│   ├── memory.md              # Resumo executivo (LER ao iniciar)
-│   ├── contexto-projeto.md    # Contexto detalhado
+│   ├── memory.md              # Histórico e contexto técnico (consulta lazy)
 │   ├── sessoes/               # Histórico de trabalho
 │   └── template-sessao.md     # Template para finalizar sessão
 ├── 00 - Meta/                 # Sobre Bruno e o sistema
@@ -437,8 +434,7 @@ powershell -Command "Get-Date -Format 'yyyy-MM-ddTHH:mm:ss-03:00'"
 10. **Comprovantes:** NUNCA comprimir (manter jpg/pdf original)
 11. **Metadados:** SEMPRE preservar CreationTime após edições (usar PowerShell)
 12. **Sessões:** Nomear com data e hora do INÍCIO da sessão (`YYYY-MM-DD_HH-mm-ss.md`)
-13. **Inicialização:** SEMPRE ler memory.md ao iniciar sessão automaticamente
-14. **Campo created:** NUNCA atualizar `created:` de notas já existentes ou migradas - é IMUTÁVEL
+13. **Campo created:** NUNCA atualizar `created:` de notas já existentes ou migradas - é IMUTÁVEL
 
 ---
 
@@ -489,16 +485,16 @@ powershell -Command "Get-Date -Format 'yyyy-MM-ddTHH:mm:ss-03:00'"
 
 ## Arquivos Importantes
 
+- `CLAUDE.md` - Este arquivo (instruções principais - lido automaticamente)
+- `.claude/memory.md` - Histórico de sessões e contexto técnico (lazy loading)
 - `00 - Meta/Como o Raccoon funciona.md` - Manifesto completo
 - `00 - Meta/Contexto para IA - Raccoon.md` - Contexto para Claude.ai
 - `00 - Meta/Regras de Commit - Raccoon.md` - Regras detalhadas git
 - `README.md` - Visão geral do vault
-- `.claude/memory.md` - **LER ao iniciar SEMPRE**
-- `.claude/contexto-projeto.md` - Contexto detalhado do projeto
 
 ---
 
-**Última atualização:** 2025-11-25
-**Versão:** 1.1
+**Última atualização:** 2025-11-27
+**Versão:** 1.2
 
 **Este arquivo é lido automaticamente. Siga estas instruções em toda sessão.**
