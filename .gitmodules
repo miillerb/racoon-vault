@@ -1,0 +1,3 @@
+[submodule ".claude/plugins/obsidian"]
+	path = .claude/plugins/obsidian
+	url = https://github.com/kepano/obsidian-skills.git
