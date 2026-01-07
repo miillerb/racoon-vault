@@ -114,6 +114,32 @@ type: moc
 
 ---
 
+## Sincronização de Metadados (Frontmatter ↔ Filesystem)
+
+**Campo `created:` é IMUTÁVEL:**
+- NUNCA modificar `created:` em notas existentes
+- NUNCA modificar `created:` em notas migradas (preservar data original)
+- Se `created:` e CreationTime estiverem diferentes, ajustar CreationTime para corresponder ao `created:`
+
+**Campo `updated:` é mutável:**
+- Atualizar quando houver modificações reais no conteúdo
+- Sincronizar com LastWriteTime quando necessário
+
+**Workflow de sincronização:**
+1. Sempre preservar `created:` original do frontmatter
+2. Ajustar CreationTime do arquivo para corresponder ao `created:`
+3. Comando: `(Get-Item 'arquivo.md').CreationTime = 'YYYY-MM-DD HH:mm:ss'`
+
+**CRÍTICO - Após TODA edição via Edit tool:**
+1. Ler `created:` do frontmatter do arquivo editado
+2. Executar comando de sincronização:
+   ```powershell
+   (Get-Item 'arquivo.md').CreationTime = 'YYYY-MM-DD HH:mm:ss'
+   ```
+3. Notificar usuário em tela: "✓ Metadados sincronizados: CreationTime ajustado para [data do created:]"
+
+---
+
 ## Sistema de Finanças (10 - Pessoal/11 - Finanças/)
 
 **Padrão de arquivos:**

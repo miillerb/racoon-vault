@@ -34,3 +34,5 @@ tags:
 - Pesquisei sobre "UTC", a hora universal padrão do SI (Sistema internacional) e me informei sobre os relogios atômicos de Césio-13 e como funciona um relógio atômico e um de cristal de quartzo - [Divisão de Serviços da Hora Legal Brasileira - DISHO (Hora oficial do Brasil a partir do Observatório Nacional Brasileito)](http://www.horalegalbrasil.mct.on.br/HoraLegalBrasileira.php)
 
 ## Compromissos
+
+- [x] Levar impressora da minha sogra para casa dela 📅 2026-01-06 ✅ 2026-01-06
